@@ -3,3 +3,6 @@ azdev==0.1.37
 azure-mgmt-loganalytics==0.2.0
 colorama==0.4.5
 ruamel.yaml==0.17.21
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+sphinx>=3.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
