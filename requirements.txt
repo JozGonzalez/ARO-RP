@@ -3,3 +3,8 @@ azdev==0.1.37
 azure-mgmt-loganalytics==0.2.0
 colorama==0.4.5
 ruamel.yaml==0.17.21
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.2 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
